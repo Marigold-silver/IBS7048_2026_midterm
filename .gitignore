@@ -8,3 +8,9 @@ filtered/
 .Rhistory
 .RData
 *.docx
+
+scripts/*.png
+scripts/*.csv
+scripts/*.nwk
+*.rds
+filtered120/
