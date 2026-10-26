@@ -1,0 +1,16 @@
+# Problem 2: run from IBS7048_2026 (after Problem 1)
+files = list.files("raw")
+files_noext <- sub("\\.fastq$", "", files)
+condition <- sapply(strsplit(files_noext, "_"), `[`, 2)
+r_direction <- sapply(strsplit(files_noext, "_"), `[`, 4)
+for (i in seq_along(files)) {
+  target <- file.path("sorted_R", condition[i], r_direction[i])
+  dir.create(target, recursive = TRUE, showWarnings = FALSE)
+  file.copy(file.path("raw", files[i]), target)
+}
+number <- list.files("sorted_R", recursive = TRUE)
+table(dirname(number))
+b <- sort(list.files("sorted_bash", recursive = TRUE))
+r <- sort(list.files("sorted_R",    recursive = TRUE))
+length(b); length(r)        
+identical(b, r)              

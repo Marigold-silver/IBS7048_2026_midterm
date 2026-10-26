@@ -1,0 +1,5 @@
+  condition microbial_reads non_X_reads
+1 Untreated           2e+05      180000
+2   Treated           2e+06      180000
+Fold change (Treated/Untreated), microbial reads: 10 
+Fold change (Treated/Untreated), non-Taxon_X reads: 1 

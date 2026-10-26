@@ -1,0 +1,10 @@
+IBS7048_2026/
+raw/
+sorted_bash/
+sorted_R/
+filtered/
+*.fastq
+*.fastq.gz
+.Rhistory
+.RData
+*.docx

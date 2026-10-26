@@ -1,0 +1,5 @@
+raw: 40 files
+sorted_bash/Control/R1/: 10 files
+sorted_bash/Control/R2/: 10 files
+sorted_bash/Treated/R1/: 10 files
+sorted_bash/Treated/R2/: 10 files

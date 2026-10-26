@@ -1,0 +1,6 @@
+
+Control/R1 Control/R2 Treated/R1 Treated/R2 
+        10         10         10         10 
+[1] 40
+[1] 40
+[1] TRUE

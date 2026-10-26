@@ -1,0 +1,7 @@
+estimate    lower    upper 
+   0.739    0.546    0.988 
+estimate    lower    upper 
+  -0.368   -0.604   -0.132 
+estimate    lower    upper 
+   0.330    0.267    0.397 
+Change in probability: -0.07 
